@@ -32,7 +32,7 @@ There are many ways to check if two words are an anagram of each other. You can 
 
 ## Exercise 2: Find all anagrams of a given word
 
-In the [word list folder][1] you'll find 4 lists of words. Together, these capture a large portion of the English language. 
+In the [word list folder][1] you'll find 4 lists of words. Together, these capture a large portion of the English language.
 
 Your task is to build a program that takes in a word and returns all anagrams of that word that are present in the word list. When there are no anagrams found, the program should respond with a message saying so.
 
@@ -52,7 +52,7 @@ Output: `No anagrams found.`
 
 ### Tips
 
-Getting stuck on loading the word files? Try asking Copilot chat for help. You might want to merge all the word lists into one big list. 
+Getting stuck on loading the word files? Try asking Copilot chat for help. You might want to merge all the word lists into one big list.
 
 ## Exercise 3: Write unit tests for your code.
 
