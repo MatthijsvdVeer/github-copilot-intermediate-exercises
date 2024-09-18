@@ -28,10 +28,14 @@ SXT.
 XXTX
 ```
 
-Can you create a program that reads the map from a file and turns it into a data structure that you can use to build the game world? Your world should be a grid of rooms, with each room containing information about its type (e.g. wall, empty, treasure) and the directions you can move in.
+Can you create a program that reads the map from a file and turns it into a data structure that you can use to build the game world? Your world should be a grid of `Rooms`, with each room containing information about its type (e.g. wall, empty, treasure) and the directions you can move in.
 
 ## Exercise 2: Move through the map
 
 When the game starts, you start in the room marked with a `S`. Your goal is to reach the room marked with a `E`. You can move in four directions: north, south, east and west. You can only move to rooms that are not blocked by walls. To move, you type the direction you want to move in. For example, if you want to move north, you type `go north`. When you reach the exit, you win!
+
+## Exercise 3: Cleaning up
+
+You've succesfully used Copilot to build a text-based adventure game! But, looking back at the code, do you feel like this is your normal coding style? Or maybe you let Copilot take a bit too much control? Let's clean up the code a bit. Refactor the code to make it more readable and maintainable. Do this without manually refactoring, but telling Copilot Chat what you want to achieve.
 
 [1]: ./map.txt
